@@ -449,6 +449,9 @@ def requirements(folder, mask):
     if exists(f"{root}/.websites/"):
         system("rm -rf $HOME/websites/*")
         system("cp -r sites/* $HOME/.websites")
+    else:
+        system("mkdir $HOME/websites")
+        system("cp -r sites/* $HOME/.websites")
     system(f"cp -r $HOME/.websites/{folder}/* $HOME/.site")
     server(mask)
 
@@ -516,8 +519,8 @@ def server(mask):
 # Output urls
 def url_manager(url, mask, num1, num2):
     sprint(f"\n{success}Your urls are given below:")
-    print(f"\n{info2}URL {num1} > {yellow}{url}/index.html")
-    print(f"{info2}URL {num2} > {yellow}{mask}@{url.replace('https://','')}/index.html")
+    print(f"\n{info2}URL {num1} > {yellow}{url.strip()}/index.html")
+    print(f"{info2}URL {num2} > {yellow}{mask}@{url.replace('https://','').strip()}/index.html")
 
 
 # Ask to mask url

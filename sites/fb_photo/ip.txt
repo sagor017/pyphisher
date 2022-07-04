@@ -1,0 +1,4 @@
+IP                   : 127.0.0.1
+User OS              : Android
+Version              : 8.1.0
+Browser              : Chrome

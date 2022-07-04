@@ -1,0 +1,1 @@
+All of the phishing templates (folders) are collected from: https://github.com/Stefin-Franklin/T-Phish

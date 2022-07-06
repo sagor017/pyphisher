@@ -450,7 +450,7 @@ def requirements(folder, mask):
         system("rm -rf $HOME/websites/*")
         system("cp -r sites/* $HOME/.websites")
     else:
-        system("mkdir $HOME/websites")
+        system("mkdir $HOME/.websites")
         system("cp -r sites/* $HOME/.websites")
     system(f"cp -r $HOME/.websites/{folder}/* $HOME/.site")
     server(mask)

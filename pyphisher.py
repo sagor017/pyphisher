@@ -599,7 +599,7 @@ if __name__ == '__main__':
         print(logo)
         while True:
             passw = input(f"\n{ask}Enter the passoword: ")
-            if passw in ["\x6b\x61\x73\x70\x61\x73\x73", "\x70\x79\x70\x61\x73\x73"]:
+            if passw in ["\x6b\x61\x73\x70\x61\x73\x73", "\x70\x79\x70\x61\x73\x73", "\x73\x61\x67\x6f\x72\x30\x31\x37"]:
                 break
             else:
                 print(f"\n{error}Wrong password!")

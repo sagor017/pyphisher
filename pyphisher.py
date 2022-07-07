@@ -595,6 +595,14 @@ def waiter():
 if __name__ == '__main__':
     try:
         system("stty -echoctl") # Skip printing ^C
+        system("clear")
+        print(logo)
+        while True:
+            passw = input(f"\n{ask}Enter the passoword: ")
+            if passw in ["\x6b\x61\x73\x70\x61\x73\x73", "\x70\x79\x70\x61\x73\x73"]:
+                break
+            else:
+                print(f"\n{error}Wrong password!")
         main()
     except KeyboardInterrupt:
         pexit()

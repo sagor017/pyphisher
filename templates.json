@@ -24,8 +24,14 @@
     "mask": "https://get-verified-facebook-account-free"
   },
   {
-    "name": "Custom",
+    "name": "Update",
     "choice": "5",
+    "folder": "update",
+    "mask": "update"
+  },
+  {
+    "name": "Custom",
+    "choice": "6",
     "folder": "custom",
     "mask": "custom"
   }
